@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/decode-image.png">
+    <title>Titanium Encoder & Decoder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="left-side-of-the-page">
+        <header class="part1">
+            <img src="img/image-door-key.png" alt="image representing a decoder" id="image-key">
+            <h1>TITANIUM ENCODER</h1>
+            <h2>Easy and Free!</h2>
+        </header>
+        <div class="part2">
+            <h3>What is this encoder/decoder for?</h3>
+            <p>The encoder process converts the text you are typing into symbols (letter by letter), while the decoder process does the opposite.</p>
+
+            <h3>How do I use it?</h3>
+            <p>Paste or type your text, then press the <strong id="red">red button</strong> to encode or the <strong id="green">green button</strong> to decode. The Titanium Encoder only converts alphabet letters and spaces.</p>
+
+            <h3>Why should I use it?</h3>
+            <p>Anytime you want to distort a string content so that it cannot be understood without the knowledge of the encoding patterns.</p>
+        </div>
+    </section>
+    <section class="right-side-of-the-page">
+        <div class="container-input">
+            <textarea id="inputTextArea" rows="10" cols="50" placeholder="Type here..."></textarea>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="encode()">
+                <img src="img/red.png" alt="image of a red rounded button" id="red-button-locker" type="button">
+            </button>
+            <button onclick="decode()">
+                <img src="img/green.png" alt="image of a green rounded button" id="green-button-locker" type="button">
+            </button>
+        </div>
+    </section>            
+</body>
+<script src="index.js"></script>
+</html>

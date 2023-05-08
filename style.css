@@ -1,0 +1,123 @@
+html {
+    background-color: rgb(9, 67, 117);
+    width: 940px auto;
+    display: inline-block;
+    padding: 50px 45px;
+}
+
+#image-key {
+    width: 220px;   
+}
+
+#image-key:hover {
+    transform: scale(1.3);
+}
+
+.left-side-of-the-page {
+    
+    width: 30%;
+    display: inline;
+    float: left;
+}
+
+.right-side-of-the-page {
+    
+    display: inline;
+    float: right;
+    width: 70%;
+}
+
+#red{
+    color: red;
+}
+
+#green {
+    color: rgb(11, 162, 11);
+}
+
+textarea {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#inputTextArea {
+    width: 800px;
+    height: 600px;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: x-large;
+    color: darkblue;
+}
+
+#inputTextArea::placeholder {
+    color: rgb(69, 69, 98);
+    font-family: "Inter";
+    font-size: x-large;
+}
+
+#inputTextArea:active {
+    border: none;
+    outline: none;
+}
+
+h1 {
+    color: rgb(56, 9, 48);
+    font-family: "Foldit";
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+h2 {
+    color:azure;
+    font-family: "Foldit";
+    font-size: 50px;
+    margin-top: 0;
+}
+
+h3 {
+    color: yellow;
+    font-family: "Georgia", arial;
+}
+
+p {
+    color: azure;
+    font-family: "Arial", sans-serif;
+}
+
+button {
+    background-color:rgb(9, 67, 117);
+    border: none;
+}
+
+.buttons {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#green-button-locker, #red-button-locker {
+    width: 50px;
+    padding: 0 10px;
+}
+
+#green-button-locker:active, #red-button-locker:active {
+    transform: scale(1.3);
+}
+
+@media (max-width: 57.5em) {
+    .headie {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
