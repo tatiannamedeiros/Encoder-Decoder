@@ -1,6 +1,6 @@
 Titanium Encoder/Decoder
 > encode or decode letters
-> for each letter of the English alphabet there will be a specif symbol related to.
+> for each letter of the English alphabet there will be a specif symbol related to
 
 How to use it?
 > just type your text/words
