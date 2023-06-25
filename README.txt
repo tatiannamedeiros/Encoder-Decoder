@@ -9,5 +9,3 @@ How to use it?
 Extra information:
 > The JavaScript part was most made by the ChatGPT (a language model created by OpenAI based on the GPT architecture)
 > it is not aplied for security usages and it cannot reduce the risks of third-party readers understand the message
-
-Contact: @tatianabmedeiros@outlook.com
